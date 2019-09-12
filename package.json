@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc",
-    "start": "node index.js"
+    "start" : "tsc-watch --onSuccess \" node dist/index.js \""  
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/kkw10/typeChain#readme",
   "dependencies": {
     "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "tsc-watch": "^3.0.1"
   }
 }

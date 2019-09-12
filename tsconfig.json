@@ -3,10 +3,11 @@
         "module": "commonjs",
         "target": "es2019",
         "sourceMap": true,
+        "outDir": "dist"
     },
 
     "include": [
-        "index.ts"
+        "src/**/*"
     ],
 
     "exclude": [
