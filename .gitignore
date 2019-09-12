@@ -1,0 +1,11 @@
+package-lock.json
+node_modules/
+*.js.map
+typings/
+
+**/.vs
+**/.vscode
+!**/.vscode/tasks.json
+!**/.vscode/settings.json
+!**/.vscode/extensions.json
+

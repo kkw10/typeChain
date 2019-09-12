@@ -1,0 +1,23 @@
+{
+  "name": "type-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkw10/typeChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkw10/typeChain/issues"
+  },
+  "homepage": "https://github.com/kkw10/typeChain#readme",
+  "dependencies": {
+    "typescript": "^3.6.3"
+  }
+}
